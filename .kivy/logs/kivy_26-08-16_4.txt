@@ -1,0 +1,58 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/Quiz/.kivy/logs/kivy_26-08-16_4.txt
+[INFO   ] Kivy: v2.3.1
+[INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.13.13 (main, May 12 2026, 00:20:28) [GCC 11.4.0]
+[INFO   ] Python: Interpreter at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/bin/python3"
+[INFO   ] Logger: Purge log fired. Processing...
+[INFO   ] Logger: Purge finished!
+[INFO   ] Factory: 195 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2 (img_pil, img_ffpyplayer ignored)
+[INFO   ] Text: Provider: sdl2
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 3.2 v1.r34p0-01eac0.647697edc2c1e52dec0a7e587b626ab2'>
+[INFO   ] GL: OpenGL vendor <b'ARM'>
+[INFO   ] GL: OpenGL renderer <b'Mali-G57'>
+[INFO   ] GL: OpenGL parsed version: 3, 2
+[INFO   ] GL: Texture max size <16383>
+[INFO   ] GL: Texture max units <128>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/storage/emulated/0/Quiz/KOLIE_QUIZ_400 (1).py", line 5226, in <module>
+[WARNING] stderr:     KolieQuiz().run()
+[WARNING] stderr:     ~~~~~~~~~~~~~~~^^
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/app.py", line 955, in run
+[WARNING] stderr:     self._run_prepare()
+[WARNING] stderr:     ~~~~~~~~~~~~~~~~~^^
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/app.py", line 925, in _run_prepare
+[WARNING] stderr:     root = self.build()
+[WARNING] stderr:   File "/storage/emulated/0/Quiz/KOLIE_QUIZ_400 (1).py", line 5190, in build
+[WARNING] stderr:     manager.add_widget(Bienvenue(name="bienvenue"))
+[WARNING] stderr:     ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/uix/screenmanager.py", line 1001, in add_widget
+[WARNING] stderr:     self.current = widget.name
+[WARNING] stderr:     ^^^^^^^^^^^^
+[WARNING] stderr:   File "kivy/properties.pyx", line 520, in kivy.properties.Property.__set__
+[WARNING] stderr:   File "kivy/properties.pyx", line 567, in kivy.properties.Property.set
+[WARNING] stderr:   File "kivy/properties.pyx", line 606, in kivy.properties.Property._dispatch
+[WARNING] stderr:   File "kivy/_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+[WARNING] stderr:   File "kivy/_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/uix/screenmanager.py", line 1068, in on_current
+[WARNING] stderr:     screen.dispatch('on_pre_enter')
+[WARNING] stderr:     ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+[WARNING] stderr:   File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/storage/emulated/0/Quiz/KOLIE_QUIZ_400 (1).py", line 4912, in on_pre_enter
+[WARNING] stderr:     self.manager.current = "connexion"
+[WARNING] stderr:     ^^^^^^^^^^^^^^^^^^^^
+[WARNING] stderr:   File "kivy/properties.pyx", line 520, in kivy.properties.Property.__set__
+[WARNING] stderr:   File "kivy/properties.pyx", line 567, in kivy.properties.Property.set
+[WARNING] stderr:   File "kivy/properties.pyx", line 606, in kivy.properties.Property._dispatch
+[WARNING] stderr:   File "kivy/_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+[WARNING] stderr:   File "kivy/_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/uix/screenmanager.py", line 1052, in on_current
+[WARNING] stderr:     screen = self.get_screen(value)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/uix/screenmanager.py", line 1078, in get_screen
+[WARNING] stderr:     raise ScreenManagerException('No Screen with name "%s".' % name)
+[WARNING] stderr: kivy.uix.screenmanager.ScreenManagerException: No Screen with name "connexion".
